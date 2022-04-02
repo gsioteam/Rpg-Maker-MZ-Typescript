@@ -15,3 +15,4 @@ export * from "./Scene_File";
 export * from "./Scene_Save";
 export * from "./Scene_Load";
 export * from "./Scene_GameEnd";
+export * from './Scene_Battle';
