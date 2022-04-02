@@ -1,1 +1,1 @@
-module.export = window
+module.exports = window
