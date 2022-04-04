@@ -8,13 +8,13 @@ declare class Game_Item {
     constructor();
 
     public initialize(item: Record<string, unknown>): void;
-    public isSkill(): string;
-    public isItem(): string;
+    public isSkill(): boolean;
+    public isItem(): boolean;
     public isUsableItem(): boolean;
-    public isWeapon(): string;
-    public isArmor(): string;
+    public isWeapon(): boolean;
+    public isArmor(): boolean;
     public isEquipItem(): boolean;
-    public isNull(): string;
+    public isNull(): boolean;
     public itemId(): number;
     public object(): RPG.DataItemBase;
     public setObject(item: Record<string, unknown>): void;
